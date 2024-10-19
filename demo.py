@@ -22,21 +22,12 @@ st.markdown('''<style>.css-nlntq9 a {color: #ff4c4b;}</style>''',
 def audiorec_demo_app():
 
     # TITLE and Creator information
-    st.title('streamlit audio recorder')
-    st.markdown('Implemented by '
-        '[Stefan Rummer](https://www.linkedin.com/in/stefanrmmr/) - '
-        'view project source code on '
-                
-        '[GitHub](https://github.com/stefanrmmr/streamlit-audio-recorder)')
+    st.title('[placeholder]')
+    st.markdown('')
     st.write('\n\n')
 
-    # TUTORIAL: How to use STREAMLIT AUDIO RECORDER?
-    # by calling this function an instance of the audio recorder is created
-    # once a recording is completed, audio data will be saved to wav_audio_data
+    wav_audio_data = st_audiorec() 
 
-    wav_audio_data = st_audiorec() # tadaaaa! yes, that's it! :D
-
-    # add some spacing and informative messages
     col_info, col_space = st.columns([0.57, 0.43])
     with col_info:
         st.write('\n')  # add vertical spacer
