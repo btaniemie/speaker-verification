@@ -18,7 +18,7 @@ st.markdown('''<style>.css-nlntq9 a {color: #ff4c4b;}</style>''',
 
 def audiorec_demo_app():
 
-    st.title('speaker verification')
+    st.title('🗣️ speaker verification')
     st.markdown('')
     st.write('\n\n')
 
