@@ -1,5 +1,3 @@
-# streamlit_audio_recorder by stefanrmmr (rs. analytics) - version January 2023
-
 import streamlit as st
 from st_audiorec import st_audiorec
 
